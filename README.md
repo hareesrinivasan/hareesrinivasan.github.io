@@ -1,6 +1,6 @@
 # Personal Projects
 
-## Critical Voter Probability
+### Critical Voter Probability
 
 ## Markdown
 

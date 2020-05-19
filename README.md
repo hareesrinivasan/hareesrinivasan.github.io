@@ -11,7 +11,15 @@ Using combinatorix, I created a probability model for the likelihood that a sing
 <br>
 
 ### Linear Regression in Sklearn versus Statsmodels
-<br>
 
 I analyzed the differences between performing sklearn and statsmodels in this [blogpost](https://medium.com/@hsrinivasan2/linear-regression-in-scikit-learn-vs-statsmodels-568b60792991). In the article, I explore the difference beyond the syntax by evaluating the underlying algorithms, efficicency, and models of both classes.
+
+<br>
+
+### My Resume
+
+[My Resume](https://hareesrinivasan.github.io/assets/Haree_Srinivasan_Resume.pdf)
+[Linked-In](https://www.linkedin.com/in/haree-srinivasan/)
+
+
 

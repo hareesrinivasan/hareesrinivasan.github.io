@@ -1,37 +1,17 @@
 # Personal Projects
+<br>
 
-### Critical Voter Probability
+### Does Your Vote Matter?
+<br>
 
-<img src="images/Emoticons/cool.png" alt="hi" class="inline"/>
+![Critical_Voter_Probability](https://hareesrinivasan.github.io/images/Critical_Voter_Probability.jpg)
+<br>
 
-## Markdown
+Using combinatorix, I created a probability model for the likelihood that a single voter can impact an election. As seen in the graph above, I found and proved that, given that the all the possible ways the other voters can vote are equally likely, the probability that a single voter can impact an election is actually greater than that voter's share of the vote. This assumption may not always hold, but the finding show that an individual's impact on democracy is greater than what some cynics might think. A full blogpost can be found [here](https://medium.com/@hsrinivasan2/does-your-vote-matter-ca47b631f036).
+<br>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Linear Regression in Sklearn versus Statsmodels
+<br>
 
-```markdown
-Syntax highlighted code block
+I analyzed the differences between performing sklearn and statsmodels in this [blogpost](https://medium.com/@hsrinivasan2/linear-regression-in-scikit-learn-vs-statsmodels-568b60792991). In the article, I explore the difference beyond the syntax by evaluating the underlying algorithms, efficicency, and models of both classes.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hareesrinivasan/hareesrinivasan.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

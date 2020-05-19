@@ -2,7 +2,7 @@
 
 ### Critical Voter Probability
 
-<img src="images/Emoticons/cool.png" alt="hi" class="inline"/>
+![images/Critical_Voter_Probability.jpg](attachment:images/Critical_Voter_Probability.jpg)
 
 ## Markdown
 

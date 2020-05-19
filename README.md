@@ -2,7 +2,7 @@
 
 ### Critical Voter Probability
 
-https://github.com/hareesrinivasan/hareesrinivasan.github.io/blob/master/images/Critical_Voter_Probability.jpg
+[![Critical_Voter_Prob_graph](https://github.com/hareesrinivasan/hareesrinivasan.github.io/blob/master/images/Critical_Voter_Probability.jpg)]
 
 ## Markdown
 

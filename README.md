@@ -18,7 +18,7 @@ I analyzed the differences between performing sklearn and statsmodels in this [b
 
 ### My Resume
 
-[My Resume](https://hareesrinivasan.github.io/assets/Haree_Srinivasan_Resume.pdf)
+[My Resume](https://hareesrinivasan.github.io/assets/Haree_Srinivasan_Resume.pdf) <br>
 [Linked-In](https://www.linkedin.com/in/haree-srinivasan/)
 
 

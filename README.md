@@ -1,6 +1,17 @@
 # Personal Projects
 <br>
 
+### The Evolution of NBA Team's Field Goal Attempts
+<br>
+![NBA Field Goals over Time](https://github.com/hareesrinivasan/hareesrinivasan.github.io/blob/master/images/2pt_vs_3pt.png)
+
+The graph above plots every team's average 2-pt and 3-pt field goal attempts per game. The shaded area represents the difference between the maximum and minimum field goal attempts per each year. This data was useful in conducting the following analysis. Note: the year listed represents the second year of the NBA season, so 1985 is the 1984-85 season, while 2020 is the 2019-20 season.
+
+### Predicting NBA Playoff Series Winners
+<br>
+
+The purpose of this project was to predict the winners of NBA playoff series given regular season data from that season. A team's score in a given game can be broken down into three categories: 2-pointers, 3-pointers, and free throws. The number of successful baskets in each type can be modeled by a poisson distribution
+
 ### Does Your Vote Matter?
 <br>
 

@@ -5,12 +5,16 @@
 <br>
 ![NBA Field Goals over Time](https://hareesrinivasan.github.io/images/2pt_vs_3pt.png)
 
-The graph above plots every team's average 2-pt and 3-pt field goal attempts per game. The shaded area represents the difference between the maximum and minimum field goal attempts per each year. This data was useful in conducting the following analysis. Note: the year listed represents the second year of the NBA season, so 1985 is the 1984-85 season, while 2020 is the 2019-20 season.
+The graph above plots every team's average 2-pt and 3-pt field goal attempts per game. The shaded area represents the difference between the maximum and minimum field goal attempts per each year. This data was useful in conducting the following analysis. Note: the year listed represents the second year of the NBA season, so 1980 is the 1979-80 season (the first season with 3-pointers), while 2020 is the 2019-20 season.
 
 ### Predicting NBA Playoff Series Winners
 <br>
 
-The purpose of this project was to predict the winners of NBA playoff series given regular season data from that season. A team's score in a given game can be broken down into three categories: 2-pointers, 3-pointers, and free throws. The number of successful baskets in each type can be modeled by a poisson distribution
+Like many people, I was bummed out that the NBA season was put on hold this year (2020) due to the corona virus. At first, there was uncertainty surrounding whether or no the season would return. Thus, I decided to see if I could use my Data Science skills to project who would win the NBA finals. I began by scraping team stats, specifically home and road splits, and regular season game results from basketball-reference.com and yearly standings from landofbasketball.com. 
+
+A team's point output in an individual game can be modeled by a poisson distribution. As there are three ways to score in an NBA game, I broke a teams score into three categories: two pointers, three pointers, and free throws. Additionally, each team defensively has some capacity to prevent scoring, represented through opposing field goal and free throw statistics. As such, I needed to determine some way of measuring the relative weights that the team's offensive stats and the opposititons's defensive potential impact a team's point output. I did so by using the score of every regular season game to develop of a simple linear model. The response of this model was an individual team's score, while the explanatory variables were that team's offensive points per game and the opposition's points allowed per game. I did this for every season since 1984, the first year with reliable home-road split stats. Using the weights from these models, I was able to determine a team's point output for a given game as follows:
+
+\\[score = off_weight * (2 * P(2pt_pg) + 3 * P(3pt_pg) + P(ft_pg) + def_weight * (2 * P(opp_2pt_pg) + 3 * P(opp_3pt_pg) + P(opp_ft_pg))\\]
 
 ### Does Your Vote Matter?
 <br>

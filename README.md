@@ -16,6 +16,8 @@ A team's point output in an individual game can be modeled by a poisson distribu
 
 \\[score = off_weight * (2 * P(2pt_pg) + 3 * P(3pt_pg) + P(ft_pg) + def_weight * (2 * P(opp_2pt_pg) + 3 * P(opp_3pt_pg) + P(opp_ft_pg))\\]
 
+After calculating scores for both teams, I predicted a winner by selecting the team with a larger score. I then repeated this process 15,000 times for each game and simulated each series 15,000 times to determine the winner. Currently, this model is 75% accurate in predicting past series winners and projects the Milwaukee Bucks as the 2020 NBA champions. This method is imperfect in several key ways, namely it does not account for injuries, player acquisitions, or other key events that alter a team's score output. Instead, it serves as a baseline for further simulations.
+
 ### Does Your Vote Matter?
 <br>
 

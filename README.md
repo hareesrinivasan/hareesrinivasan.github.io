@@ -15,8 +15,6 @@ A team's point output in an individual game can be modeled by a poisson distribu
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=score%20%3D%20off_weight%20%2A%20%282%20%2A%20P%282pt_pg%29%20%2B%203%20%2A%20P%283pt_pg%29%20%2B%20P%28ft_pg%29%20%2B%20def_weight%20%2A%20%282%20%2A%20P%28opp_2pt_pg%29%20%2B%203%20%2A%20P%28opp_3pt_pg%29%20%2B%20P%28opp_ft_pg%29%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
-$`score = off_weight * (2 * P(2pt_pg) + 3 * P(3pt_pg) + P(ft_pg) + def_weight * (2 * P(opp_2pt_pg) + 3 * P(opp_3pt_pg) + P(opp_ft_pg))`$
-
 After calculating scores for both teams, I predicted a winner by selecting the team with a larger score. I then repeated this process 15,000 times for each game and simulated each series 15,000 times to determine the winner. Currently, this model is 75% accurate in predicting past series winners and projects the Milwaukee Bucks as the 2020 NBA champions. This method is imperfect in several key ways, namely it does not account for injuries, player acquisitions, or other key events that alter a team's score output. Instead, it serves as a baseline for further simulations. The repository for this project can be found [here](https://github.com/hareesrinivasan/nba_playoffs).
 
 ### Does Your Vote Matter?
